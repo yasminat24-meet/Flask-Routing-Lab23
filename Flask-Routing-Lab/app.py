@@ -8,8 +8,12 @@ app = Flask(  # Create a flask app
 )
 
 # Your code should be below
-
-
+@app.route('/')
+def yasmin1():
+    return render_template("home.html")
+@app.route('/product')
+def yasmin2():
+    return render_template("product.html")
 
 
 # Your code should be above
