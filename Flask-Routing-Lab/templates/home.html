@@ -8,11 +8,10 @@
 <body>
 <h1> welcome to yasmina online shop !!</h1>
 <p> shop your fav brands with less price and high quality </p>
-<img src="nike1.jpg" width="460" height="345">
-<img src="nike2.jpeg" width="460" height="345">
+<img src="{{ url_for('static', filename = '/imgs/Nike-Logo.png') }}"alt="nike" width="460" height="345">
+<img src="{{ url_for('static', filename = '/imgs/adidas-logo.jpg') }}"alt="nike" width="460" height="345">
 <div id="categories">
     <h2>categories</h2>
-
     <ul>
      <a href="/product"> <li>nike</li> </a>
      <a href=""><li>adidas</li>

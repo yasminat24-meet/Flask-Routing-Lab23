@@ -11,10 +11,14 @@ app = Flask(  # Create a flask app
 @app.route('/')
 def yasmin1():
     return render_template("home.html")
+
 @app.route('/product')
 def yasmin2():
     return render_template("product.html")
 
+@app.route('/cart')
+def yasmin3():
+    return render_template("cart.html")
 
 # Your code should be above
 
